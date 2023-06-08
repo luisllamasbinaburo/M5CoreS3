@@ -52,22 +52,22 @@ void App_Init() {
     ResourcePool::Init();
 
     /* Initialize pages */
-    manager.Install("StartUp", "Pages/StartUp");
-    manager.Install("FactoryTest", "Pages/FactoryTest");
-    manager.Install("HomeMenu", "Pages/HomeMenu");
-    manager.Install("AppWiFi", "Pages/AppWiFi");
+    // manager.Install("StartUp", "Pages/StartUp");
+    // manager.Install("FactoryTest", "Pages/FactoryTest");
+    // manager.Install("HomeMenu", "Pages/HomeMenu");
+    // manager.Install("AppWiFi", "Pages/AppWiFi");
     manager.Install("AppCamera", "Pages/AppCamera");
-    manager.Install("AppMic", "Pages/AppMic");
-    manager.Install("AppPower", "Pages/AppPower");
-    manager.Install("AppIMU", "Pages/AppIMU");
-    manager.Install("AppSD", "Pages/AppSD");
-    manager.Install("AppTouch", "Pages/AppTouch");
-    manager.Install("AppI2C", "Pages/AppI2C");
-    manager.Install("AppRTC", "Pages/AppRTC");
+    // manager.Install("AppMic", "Pages/AppMic");
+    // manager.Install("AppPower", "Pages/AppPower");
+    // manager.Install("AppIMU", "Pages/AppIMU");
+    // manager.Install("AppSD", "Pages/AppSD");
+    // manager.Install("AppTouch", "Pages/AppTouch");
+    // manager.Install("AppI2C", "Pages/AppI2C");
+    // manager.Install("AppRTC", "Pages/AppRTC");
 
     manager.SetGlobalLoadAnimType(PageManager::LOAD_ANIM_NONE);
 
-    manager.Push("Pages/StartUp");
+    manager.Push("Pages/AppCamera");
 }
 
 void App_Uninit() {

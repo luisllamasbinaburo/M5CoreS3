@@ -4,6 +4,7 @@
 #include "AppCameraView.h"
 #include "AppCameraModel.h"
 
+
 namespace Page {
 
 class AppCamera : public PageBase {
