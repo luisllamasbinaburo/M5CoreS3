@@ -1,26 +1,3 @@
-
-// If you use ATOMDisplay, write this.
-#include <M5AtomDisplay.h>
-
-// If you use ModuleDisplay, write this.
-#include <M5ModuleDisplay.h>
-
-// If you use ModuleRCA, write this.
-// #include <M5ModuleRCA.h>
-
-// If you use Unit LCD, write this.
-#include <M5UnitLCD.h>
-
-// If you use Unit OLED, write this.
-#include <M5UnitOLED.h>
-
-// If you use UnitRCA (for Video output), write this.
-// #include <M5UnitRCA.h>
-
-// * The display header must be included before the M5Unified library.
-
-//----------------------------------------------------------------
-
 // Include this to enable the M5 global instance.
 #include <M5Unified.h>
 

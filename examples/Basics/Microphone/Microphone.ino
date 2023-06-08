@@ -1,5 +1,3 @@
-#include <M5UnitLCD.h>
-#include <M5UnitOLED.h>
 #include <M5Unified.h>
 
 static constexpr const size_t record_number = 256;
